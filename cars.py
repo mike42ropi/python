@@ -2,18 +2,20 @@
 
 cars = ["Ford", "Audi", "BMW","Toyota", "oranges", "apples", 1, "bananas"]
 #prints rest of the list starting with index + 1
-audi0 = cars[5:]
+audi0 = cars
 print(audi0)
+dio = cars[:]
+print(dio)
 #negative indexing
  
-fann = cars[6]
-print(fann)
-week = ["Monday","Friday" ,"Tuesday"]
+# fann = cars[6]
+# print(fann)
+# week = ["Monday","Friday" ,"Tuesday"]
 
-print(week.index("Monday"))
+# print(week.index("Monday"))
 
-trainees =  ["John", [2, ["James","Mary"]]]
+# trainees =  ["John", [2, ["James","Mary"]]]
 
-bas = trainees[1][0]
-print(bas)
+# bas = trainees[1][0]
+# print(bas)
 

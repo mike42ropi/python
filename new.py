@@ -30,44 +30,12 @@ print(add)
 
 #6. Remove John and Mary from the listtrainees.remove('John')print(trainees)
 
-add.remove("John")
+del add[0]
+del add[0][1][2]
+
 print(add)
+
 
 #7. Using a function, determine the length of the list
 k =len(add)
 print(k)
-
-
-train =  ["John","ford" ,[2, ["James","Mary"]]]
-pp= ["j","u","y"]
-uu= ["l","m","n"]
-trains= train+pp+uu
-print(trains)
-
-trains.remove("ford")
-print(trains)
-
-trains.pop()
-print(trains)
-
-#del trains
-
-trains.clear
-print(trains)
-
-
-
-
-car1 =input("Enter car names:")
-car2 =input("Enter car names:")
-car3 =input("Enter car names:")
-
-models = []
-
-models.append(car1)
-models.append(car2)
-models.append(car3)
-print(models)
-models.remove("merc")
-
-print(models)
